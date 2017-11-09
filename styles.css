@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,300,400,700&subset=cyrillic,latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400italic,700italic,300,400,700&subset=cyrillic,latin,latin-ext');
+#stay { position: fixed; top:0; width: 100%; }
+p { margin:0; padding:5px 0;}
+html {
+	font-family: 'Open Sans';
+	color: #fff; 
+	font-size: 10pt;
+}
+body { margin:0; padding:0; background-color:#000;}
+h1 { margin:0; text-transform: uppercase; font-size: 14px; padding:5px 0; letter-spacing:1.5px; color:#fff;}
+h2 { background-image:url(http://aadc.us/greendot.png); background-repeat:no-repeat; background-position: 6px 11px;
+margin:0; text-transform: uppercase; font-size: 14px; padding:6px 0 6px 20px; color:#fff;}
+#abj { background-color:#181818; }
+#abj ul { list-style:none; margin:0;padding:0;}
+#abj li { width: 22px; margin:0 3px 5px 3px; float:left; font-size: 16px;font-weight:bold;text-align:center;}
+
+.chart {
+	border-bottom:1px dotted #555;
+}
+.chart1 {color: #ff4400; font-size:19pt; margin-top:5px;font-weight:bold; float:left; width:50px; text-align: center; }
+.chart2 { padding-top:13px;}
+.bg {
+    background-color: #000;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%; /* To compensate for mobile browser address bar space */
+    background: url(http://aadc.us/stafabandazmobiledarkweb.jpg) no-repeat; 
+    background-size: 100% 100%;
+}
+.both { clear:both;width:0; margin:0;padding:0;}
+#c { width: 100%; margin-top:90px;}
+#n { width: 100%; }
+#menu {
+	padding:5px 0;
+	background-color: #ff4400; 	 	
+	background-image:url(http://aadc.us/stafabandaz.jpg); background-repeat:no-repeat; background-position:center;
+	width: 100%;
+	height: 30px;
+}
+#menu .menu {
+	padding-top:6px; float:right; text-align: center; width:55px; font-size:11px; font-weight:bold; color:#ccc; text-shadow:1px 1px 1px #000;
+}
+.menu a:hover { text-decoration: underline; color: #fff;}	
+.or:link, .or:visited { color:#ff4400; }
+.or:hover { color:#fff; }
+.line { border-top:1px solid #888; }
+.info { font-size:11px; color: #aaa;}
+.det-a { font-size: 13pt; margin-bottom:3px; }
+.det-a strong { font-weight: normal; }
+.det-b { font-size: 9pt; }
+.det-b a:link, .det-b a:visited { color: #aaa; }
+.det-b a:hover { color: #fff; text-decoration: underline; }
+.form { padding:5px 0; background: #000;}
+input[type=text] {
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    opacity: 0.5;
+    background-image: url('http://aadc.us/searchicon.png');
+    background-position: 10px 7px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+div.h {     background: rgba(00, 00 ,00, 0.9); }
+input[type=text]:focus {
+    width: 99%;
+    opacity: 1;
+}
+#cover {
+	padding: 5px;
+	text-align: left; 
+	background: rgba(0, 0 ,0, 0.7); 
+}
+
+a:link, a:visited { color: #fff; text-decoration: none;}
+a:hover { color: #FD4B2F; }
+.list { padding: 6px 0 3px 0; border-bottom:1px dotted #555; }
+.list-a { background-image: url('http://aadc.us/music.png');background-size:15px 15px;background-position:0 6px; padding:1px 0 2px 22px; background-repeat:no-repeat; opacity:1;}
+.list-a a:link, .list-a a:visited { font-size: 11pt; }
+
+.list-alb { background-size:50px 50px; margin-bottom:5px; padding:0 0 0 55px; background-repeat:no-repeat; opacity:1;  border-bottom:1px dotted #555; }
+.list-alb a:link, .list-alb a:visited { font-size: 11pt; }
+
+.list-a strong { font-weight: normal; }
+.list-c { background-image: url('http://aadc.us/music.png');background-size:15px 15px;background-position:0 6px; padding:1px 0 2px 22px; background-repeat:no-repeat; opacity:1;}
+.list-c strong { font-weight: normal; }
+.list-c a:link, .list-c a:visited { font-size: 11px; }
+.list-b { padding-left: 22px; font-size: 8pt; color:#aaa; }
+.list-b a:link, .list-b a:visited { font-size: 11px; color: #FF6316; }
+.list-b a:hover { font-size: 11px; color: #fff; }
+.list-d { color:#aaa; font-size: 12px;}
+.list-d a:link, .list-d a:visited { font-size: 11px; color: #FF6316; }
+.list-d a:hover { font-size: 11px; color: #fff; }
+.duration { font-size:9px; float:right; color: #aaa;}
+.size { font-size:9px; float:right; color: #aaa;}
+textarea { width: 99%;max-width: 100%;}
+#bottom { border-top:10px solid #741F00; background:#9C2A01; margin:0;text-align: center; padding: 10px 15px 15px 15px; }
+
+/* Move to Desktop ================================================= */
+@media (min-width: 700px) { 
+body { background-color: transparent; }
+    html {
+        background: url(http://aadc.us/stafabandazdarkwebs.jpg) no-repeat center center fixed; 
+        background-size: cover;
+    }
+#stay { width: 800px; }
+#c { width: 800px; }
+#n { width: 800px; }
+.bg { display: none; }
+#cover { padding: 0 10px 10px 10px; }
+}
+
+#dl { float: right; width: 100px; text-align: right; margin-left: 15px;}
+#dl span { color: #777; font-size: 10px; }
+.buttondl { text-transform: uppercase; border-radius:1px; background-color: #ff4400; padding:6px 0; font-weight: bold; width: auto; text-align: center; }
+.buttondl a:link, .buttondl a:visited { color: #ddd; text-shadow: 0px 1px 1px #000;}
+.buttondl a:hover {color: #fff;}
+.lyrics { padding: 5px; color: #ddd; }
+.lyrics img { margin:0 10px 10px 0; }
+#info { font-size:8pt; letter-spacing:1.5px; }
