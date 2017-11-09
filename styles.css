@@ -127,3 +127,6 @@ body { background-color: transparent; }
 .lyrics { padding: 5px; color: #ddd; }
 .lyrics img { margin:0 10px 10px 0; }
 #info { font-size:8pt; letter-spacing:1.5px; }
+#stafa-link { text-transform: uppercase; margin : 0; padding : 6px; text-align: right; font-weight: bold;}
+#stafa-link a { display:inline-block; border : #ff4400 solid 1px; background : #ff4400; color : #fff; margin : 0; padding : 6px; color: #ddd; text-shadow: 0px 1px 1px #000;}
+#stafa-link a:hover {color: #fff;}
